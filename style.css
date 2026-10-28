@@ -1,0 +1,137 @@
+body {
+    background-color: #f7f2e8;
+    font-family: Arial, sans-serif;
+    color: #39372f;
+}
+
+.quiz-box {
+    max-width: 480px;
+    background-color: #fffdf7;
+    padding: 25px;
+    border: 1px solid #e5ddcd;
+    border-radius: 18px;
+}
+
+.emoji {
+    font-size: 35px;
+}
+
+h2 {
+    color: #466b50;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #88816f;
+    font-size: 14px;
+}
+
+.welcome {
+    background-color: #eef0df;
+    padding: 25px 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.welcome h4 {
+    color: #466b50;
+}
+
+.welcome p {
+    font-size: 14px;
+}
+
+.big-emoji {
+    font-size: 42px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.main-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #54785a;
+    color: white;
+    margin-top: 10px;
+}
+
+.main-btn:hover:not(:disabled) {
+    background-color: #3e6045;
+}
+
+.main-btn:disabled {
+    background-color: #b8c5b2;
+    color: white;
+}
+
+.progress {
+    height: 7px;
+    background-color: #e8e4d9;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    width: 0%;
+    background-color: #719477;
+}
+
+#question {
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.option-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #fffdf7;
+    border: 1px solid #dcd6c7;
+    border-radius: 9px;
+}
+
+.option-btn:hover:not(:disabled) {
+    background-color: #f0f1e5;
+}
+
+.option-btn:disabled {
+    opacity: 1;
+}
+
+.correct {
+    background-color: #dcebd9;
+    border-color: #719477;
+}
+
+.wrong {
+    background-color: #f6dfd9;
+    border-color: #d48b7d;
+}
+
+#message {
+    font-size: 14px;
+}
+
+#result-page {
+    text-align: center;
+    padding-top: 25px;
+}
+
+#final-score {
+    background-color: #eef0df;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #898575;
+}
